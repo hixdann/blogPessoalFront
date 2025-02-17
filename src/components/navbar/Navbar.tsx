@@ -25,8 +25,8 @@ function Navbar() {
 
                     <div className='flex gap-4'>
                     <span>Postagens</span>
-                        <span>Temas</span>
-                        <span>Cadastrar tema</span>
+                        <span><Link to='/temas' className='hover:underline'>Temas</Link></span>
+                        <span><Link to='/cadastrartema' className='hover:underline'>Cadastrar tema</Link></span>
                         <span>Perfil</span>
                         <span><Link to='' onClick={logout} className='hover:underline'>Sair</Link></span>
                     </div>
