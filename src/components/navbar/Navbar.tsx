@@ -24,7 +24,7 @@ function Navbar() {
                     <Link to='/home' className="text-2xl font-bold">Blog Pessoal</Link>
 
                     <div className='flex gap-4'>
-                    <span>Postagens</span>
+                        <span><Link to='/postagens' className='hover:underline'>Postagens</Link></span>
                         <span><Link to='/temas' className='hover:underline'>Temas</Link></span>
                         <span><Link to='/cadastrartema' className='hover:underline'>Cadastrar tema</Link></span>
                         <span>Perfil</span>

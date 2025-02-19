@@ -140,7 +140,7 @@ function Cadastro() {
             </button>
             <button 
                 type='submit'
-                className='rounded text-white bg-indigo-400 
+                className='rounded text-white bg-[#a9636c] 
                            hover:bg-indigo-900 w-1/2 py-2
                            flex justify-center' 
                 >
