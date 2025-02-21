@@ -30,6 +30,7 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <div className="relative"></div>
 
             <ListaPostagens />
         </>
